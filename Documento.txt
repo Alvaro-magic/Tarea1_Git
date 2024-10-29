@@ -1,0 +1,40 @@
+package prog01.unidad03;
+
+import java.util.Scanner;
+
+public class NumerosParesImparesEntreApp {
+	
+	public static void main (String[] args) {
+		
+		System.out.println("Este programa crea la sucesión de número entre los dos valores que elijas");
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		int primerValor;
+		int segundoValor;
+		char seguir;
+		
+		do{
+			System.out.println("Escriba el valor por el cual quiere que comience la sucesión");
+			primerValor = Integer.parseInt(entrada.nextLine());
+			System.out.println("Escriba el valor por el cual quiere que termine la sucesión");
+			segundoValor = Integer.parseInt(entrada.nextLine());
+			
+			if (primerValor < segundoValor) {
+				for (int i = primerValor; i <= segundoValor; i++) {
+				if ((i%2) != 0) {
+					System.out.println(i+" es un número impar");
+				}else{
+					System.out.println(i+" es un número par");
+				}
+			}
+			}else {
+				System.out.println("El primer valor tiene que ser más pequeño que el segundo");
+			}
+			System.out.println("¿Desea continuar? (s/n)");
+			seguir = entrada.nextLine().charAt(0);
+			
+		}while (seguir != 'n');
+		entrada.close();
+	}
+}
