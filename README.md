@@ -1,6 +1,6 @@
-#Primer fichero readme
-##Este es mi primer fichero readme
-###Voy a estar probando cosas distintas en este fichero
+# Primer fichero readme
+## Este es mi primer fichero readme
+### Voy a estar probando cosas distintas en este fichero
 **Con esto puedo poner la letra en negrita**
 __Esto tambien es letra negrita__
 *Esto es letra cursiva*
