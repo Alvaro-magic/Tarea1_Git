@@ -54,11 +54,11 @@ Este es un enlace a GitHub
     + listas 
         - anidadas
 
--[x] Hay una manera de crear listas de tareas
--[] Y es creando recuadros de esta manera
--[x] Y podemos marcarlas con la x
+- [x] Hay una manera de crear listas de tareas
+- [ ] Y es creando recuadros de esta manera
+- [x] Y podemos marcarlas con la x
 
-Con el @ podemos nombrar a gente asi @GitHub
+Con el @ podemos nombrar a gente asi @github/support
 
 Poniendo :+1: podemos poner emojis :shipit:
 
